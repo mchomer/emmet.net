@@ -1,14 +1,14 @@
 # Emmet.net - Emmet for Microsoft Visual Studio
 
-[![Build status](https://ci.appveyor.com/api/projects/status/b5sa82u73by2bcq1?svg=true)](https://ci.appveyor.com/project/sergey-rybalkin/emmet-net)
+[![Build status]
+Updated for Visual Studio 2017
 
 This project is a MS Visual Studio port of Emmet editor extensions created by Sergey Chikuyonok.
 
+Updated for Visual Studio 2017 of the https://github.com/emmetio/emmet project by Sergey Chikuyonok. 
+This extension was originally written for Visual Studio 2015 by Sergey Rybalkin https://github.com/sergey-rybalkin/emmet.net
+
 More information on the oriignal project is available on [Emmet official website](http://docs.emmet.io/).
-
-## Download
-
-Precompiled version can be downloaded from [VSIX Gallery](http://vsixgallery.com/extension/Emmet.net.Sergey%20Rybalkin.9a011f0e-c870-4faa-aaee-536a8040385c/). Simply install downloaded VSIX package and you are good to go.
 
 [Version History](docs/changelog.md)
 
@@ -45,8 +45,6 @@ Supported in HTML and CSS-like syntaxes (Razor views, LESS, SCSS).
 ### Configuration and Extensions
 
 Configuration settings are available under Tools -> Options -> Emmet section.
-
-![Configuration](docs/i/config.png)
 
 Default keyboard shortcuts configuration:
 
@@ -110,4 +108,4 @@ For example, mnemonic `_rif` will generate new private field `private readonly i
 
 Emmet is originally written in JavaScript and Visual Studio cannot run it natively, so this project is using [V8.NET JavaScript engine](https://v8dotnet.codeplex.com/) to execute Emmet code. V8.NET libraries are included with source code and other dependencies are managed with NuGet.
 
-Visual Studio 2015 Update 3 and Visual Studio SDK are required to build the project.
+Visual Studio 2017 RC (or later) and Visual Studio SDK are required to build the project.
