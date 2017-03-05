@@ -1,0 +1,11 @@
+.vs
+*.user
+*.bak
+*.exe
+*.log
+*.obj
+*.pdb
+bin
+obj
+[Tt]est[Rr]esults
+packages
