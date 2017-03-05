@@ -1,6 +1,5 @@
 # Emmet.net - Emmet for Microsoft Visual Studio
 
-[![Build status]
 Updated for Visual Studio 2017
 
 This project is a MS Visual Studio port of Emmet editor extensions created by Sergey Chikuyonok.
